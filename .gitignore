@@ -1,2 +1,3 @@
 *.pytest_cache
 *.__pychache__
+*.DS_Store
