@@ -1,0 +1,2 @@
+*.pytest_cache
+*.__pychache__
