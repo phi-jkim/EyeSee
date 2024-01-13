@@ -7,13 +7,6 @@ import numpy as np
 # for storing 
 # import cv2
 
-print("test") 
-
-'''
-camera read frame by frame and then run inference annotations 
-display if there is snow 
-'''
-
 ''' 
 device and param set up 
 '''
