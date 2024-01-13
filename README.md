@@ -30,7 +30,6 @@ The project structure is detailed below
 Inside EyeSee the ML pipeline 
     
     .
-    ├── ...
     ├── data                    # Dataset for annotations and classification
     │   ├── config              # Configuration file for yolo data format
     │   ├── *.jpg               # .jpg images 
