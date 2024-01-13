@@ -21,4 +21,4 @@ testing mode
 '''
 
 model.eval()
-model(image)
+
