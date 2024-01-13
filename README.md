@@ -1,9 +1,9 @@
 # EyeSee
-EyeSee is a project where we integrate classification (multi-grid bounding box with torchvision's SSD) of snow which can be hazardous if unnoticed in the winter. The device performs inference on-device on a Raspberry PI. 
+EyeSee is a project where we integrate classification using torchvision's SSDLiteMobileNet model for bounding boxes of snow which can be hazardous if unnoticed in the winter. The device performs inference on-device on a Raspberry PI. 
 
 We use visible light and an infrared camera attached to a pair of glasses to capture real-time images from the cameras. 
 
-These cameras are then fed into a lightweight inference pipeline with additional optimizations such as gamma correction (balancing low-light scenes with brighter images) and using the CPU of the raspberry PI, it will alert the user with a LED if it classifies snow in the scene. 
+These cameras are then fed into a lightweight inference pipeline and using the CPU of the raspberry PI, it will alert the user with a buzzing sound if it classifies and notices snow as a potential threat in the scene. 
 
 ## Project Structure 
 To install the necessary dependencies 

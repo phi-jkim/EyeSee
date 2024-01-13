@@ -42,7 +42,7 @@ model = custom_setup(size, model)
 model.load_state_dict(torch.load("pretrained_weights/SSD_trained_weights-2.pt", map_location=device), strict=False)  
 
 count = 0  
-threshold = 0.8# confidence score 
+threshold = 0.80# confidence score 
 ''' 
 inference 
 ''' 
