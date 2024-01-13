@@ -17,7 +17,6 @@ class AnnotateData(Dataset):
     def __getitem__(self, idx): 
         '''param index of image to access 
         Returns a pair of image and gt annotation for training and image and name of image for testing'''
-        print(self.images[idx])
         rgb_img = img_read(self.images[idx]) # numpy array of image 
 
         # perform gamma correction 
@@ -48,6 +47,5 @@ class AnnotateData(Dataset):
 
     def __len__(self): 
         '''Returns the number of data points'''
-        assert(len(self.images) == len(self.annotations))
         return len(self.images)  
 
