@@ -17,7 +17,12 @@ python inference_annotate.py
 python train_annotate.py     
 ```
 
-The project structure is detailed below 
+## Try it out! 
+Try training on our self-annotated snowing data with our training or inference script under the directory EyeSee! 
+
+You can also connect a raspberry pi and try using our CameraTest.py and inference files to alert users with warnings. 
+
+<!-- The project structure is detailed below 
     
     .
     ├── EyeSee                  # Inference pipeline for pretrained weights and data 
@@ -25,7 +30,7 @@ The project structure is detailed below
     ├── camera_inference        # Integration 
     ├── ...
     ├── requirements.txt        # Dependencies for installation 
-    └── README.md
+    └── README.md -->
 
 Inside EyeSee the ML pipeline 
     
