@@ -1,4 +1,4 @@
-import EyeML
+import Eye
 print("test") 
 
 '''

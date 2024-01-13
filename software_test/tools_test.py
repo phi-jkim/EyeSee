@@ -1,5 +1,5 @@
 import unittest 
-from EyeML import * 
+from Eye import * 
 
 import sys 
 
